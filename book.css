@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+.bg {
+    background-image: url(./Image/rrrr.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    
+}
+nav{
+    height: 18vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around; 
+}
+.logo img{
+    height: 90px;
+    width: 100px;
+}
+.li1{
+    height: 30px;
+    width: 500px;
+}
+.li1 ul{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+.li1 ul li{
+    list-style: none; 
+    
+}
+.li1 ul li a {
+    text-decoration: none;
+    color: azure;
+}
+.li2{
+    height: 30px;
+    width: 500px;
+}
+.li2 ul{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+.li2 ul li{
+    list-style: none; 
+    
+}
+.li2 ul li a {
+    text-decoration: none;
+    color: azure;
+}
+.hero-section{
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 50px;
+}
+
+/* .hero-section */
+.hero-section p{
+    color: wheat;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.boxx{
+    height: auto;
+    width: 700px;
+    background-color: white;
+    padding-bottom: 30px;
+    
+}
+.boxx button{
+    height: 30px;
+    width: 180px;
+    margin-top: 50px;
+    border: none;
+    background-color: green;
+    color: white;
+    
+}
+.boxx button{
+    opacity: 0.8;
+}
+.pre{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    
+}
+.pre1{
+    padding-top: 50px;   
+}
+.pre2{
+    padding-top: 50px;
+}
+.boxx input{
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    border: none;
+    text-align: center;
+}
+
+
+/* footer */
+.footer{
+    /* margin-top: 30px; */
+padding-top: 30px;
+     background-color: rgb(237, 227, 217);
+     height: 500px;
+}
+.about{
+    text-align: justify;
+    height: 470px;
+    width: 400px;
+    border: 1px solid rgb(237, 227, 217) ;
+}
+.about p{
+    line-height: 20px;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: rgb(83, 12, 12);
+}
+.direct p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.direct li{
+    list-style: none;
+    text-align: center;
+}
+.direct li a {
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.direct{
+    padding-top: 30px;
+    width: 200px;
+    border: 1px solid rgb(237, 227, 217);
+}
+.follow{
+    padding-top: 70px;
+}
+.follow .icon{
+    text-align: center;
+    margin-left: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.map iframe{
+    margin-top: 20px;
+    height: 400px;
+    width: 500px;
+}
+.subscribe{
+    /* padding-top: 10px; */
+    margin-bottom: 30px;
+}
+.subscribe input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin-left: 55px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.sss{
+    display: flex;
+}
+.sss input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin-top: 20px;
+}
+.sss button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    border-radius: 0%;
+}
+button:hover{
+    opacity: 0.7;
+}
+
+@media(min-width:350px) and (max-width:780px){
+    .footer{
+        display: block;
+        height: auto;
+        justify-items: center;
+    }
+    .follow{
+        padding-bottom: 20px;
+    }
+    .boxx{
+        width: 250px;
+        height: 450px;
+    }
+    .pre{
+        display: block;
+    }
+    .map iframe{
+        height: auto;
+        width: auto;
+    }
+    .about{
+        width: 320px;
+    }
+    .sss input{
+        width: 150px;
+    }
+    .subscribe button{
+        width: 60px;
+    }
+    
+
+}
+@media(min-width:780px) and (max-width:1100px){
+    .footer{
+        display: block;
+        height: auto;
+        justify-items: center;
+    }
+}

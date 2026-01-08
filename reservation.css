@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.bg {
+    background-image: url(./Image/restaurant.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+nav{
+    height: 18vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around; 
+}
+.logo img{
+    height: 90px;
+    width: 100px;
+}
+.li1{
+    height: 30px;
+    width: 500px;
+}
+.li1 ul{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+.li1 ul li{
+    list-style: none; 
+    
+}
+.li1 ul li a {
+    text-decoration: none;
+    color: azure;
+}
+.li2{
+    height: 30px;
+    width: 500px;
+}
+.li2 ul{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+.li2 ul li{
+    list-style: none; 
+    
+}
+.li2 ul li a {
+    text-decoration: none;
+    color: azure;
+}
+.table{
+    font-size: 40px;
+    color: white;
+   text-align: center;
+    margin-top: 160px;
+}
+.table button{
+    height: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+}
+.table button:hover{
+    opacity: 0.8;
+}
